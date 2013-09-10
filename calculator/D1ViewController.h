@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface D1ViewController : UIViewController
-
+@property (nonatomic) NSMutableArray *myStack;
+-(IBAction)collectInput:(id)sender;
 @end
