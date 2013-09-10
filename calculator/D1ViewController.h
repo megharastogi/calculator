@@ -7,8 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Compute.h"
 
 @interface D1ViewController : UIViewController
-@property (nonatomic) NSMutableArray *myStack;
--(IBAction)collectInput:(id)sender;
+
+@property (nonatomic) IBOutlet UITextView *result;
+-(IBAction)collectInput:(UIButton*)clickedButton;
+-(IBAction)returnResult:(id)sender;
+-(IBAction)clearAll:(id)sender;
+
+@property (nonatomic) Compute * compute;
+
 @end

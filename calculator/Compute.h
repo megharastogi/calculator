@@ -9,5 +9,11 @@
 #import <Foundation/Foundation.h>
 
 @interface Compute : NSObject
+    @property (nonatomic) NSMutableArray * myStack;
+    @property (nonatomic) NSMutableArray *operationStack;
+    @property (nonatomic) BOOL operatorEntered;
+    -(void) pushOnStack: (NSString *) nextValue;
+    -(NSString*) calculateResult: (NSString *) nextValue;
+
 
 @end

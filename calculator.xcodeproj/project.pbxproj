@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04C2D09517DE8C5A0086B9AD /* Compute.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C2D09417DE8C5A0086B9AD /* Compute.m */; };
+		04C2D09817DEE2790086B9AD /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C2D09717DEE2790086B9AD /* Main_iPad.storyboard */; };
 		04E6642617DE85AB0036A4F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E6642517DE85AB0036A4F8 /* Foundation.framework */; };
 		04E6642817DE85AB0036A4F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E6642717DE85AB0036A4F8 /* CoreGraphics.framework */; };
 		04E6642A17DE85AB0036A4F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E6642917DE85AB0036A4F8 /* UIKit.framework */; };
 		04E6643017DE85AB0036A4F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04E6642E17DE85AB0036A4F8 /* InfoPlist.strings */; };
 		04E6643217DE85AB0036A4F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E6643117DE85AB0036A4F8 /* main.m */; };
 		04E6643617DE85AB0036A4F8 /* D1AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E6643517DE85AB0036A4F8 /* D1AppDelegate.m */; };
-		04E6643917DE85AB0036A4F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E6643717DE85AB0036A4F8 /* Main.storyboard */; };
+		04E6643917DE85AB0036A4F8 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E6643717DE85AB0036A4F8 /* Main_iPhone.storyboard */; };
 		04E6643C17DE85AB0036A4F8 /* D1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E6643B17DE85AB0036A4F8 /* D1ViewController.m */; };
 		04E6643E17DE85AB0036A4F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E6643D17DE85AB0036A4F8 /* Images.xcassets */; };
 		04E6644517DE85AB0036A4F8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E6644417DE85AB0036A4F8 /* XCTest.framework */; };
@@ -34,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04C2D09317DE8C5A0086B9AD /* Compute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Compute.h; sourceTree = "<group>"; };
+		04C2D09417DE8C5A0086B9AD /* Compute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Compute.m; sourceTree = "<group>"; };
+		04C2D09717DEE2790086B9AD /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
 		04E6642217DE85AB0036A4F8 /* calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E6642517DE85AB0036A4F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		04E6642717DE85AB0036A4F8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -44,7 +49,7 @@
 		04E6643317DE85AB0036A4F8 /* calculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "calculator-Prefix.pch"; sourceTree = "<group>"; };
 		04E6643417DE85AB0036A4F8 /* D1AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = D1AppDelegate.h; sourceTree = "<group>"; };
 		04E6643517DE85AB0036A4F8 /* D1AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = D1AppDelegate.m; sourceTree = "<group>"; };
-		04E6643817DE85AB0036A4F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04E6643817DE85AB0036A4F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		04E6643A17DE85AB0036A4F8 /* D1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = D1ViewController.h; sourceTree = "<group>"; };
 		04E6643B17DE85AB0036A4F8 /* D1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = D1ViewController.m; sourceTree = "<group>"; };
 		04E6643D17DE85AB0036A4F8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -79,6 +84,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04C2D09617DEE1380086B9AD /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
 		04E6641917DE85AB0036A4F8 = {
 			isa = PBXGroup;
 			children = (
@@ -112,13 +124,17 @@
 		04E6642B17DE85AB0036A4F8 /* calculator */ = {
 			isa = PBXGroup;
 			children = (
+				04C2D09617DEE1380086B9AD /* iPad */,
 				04E6643417DE85AB0036A4F8 /* D1AppDelegate.h */,
 				04E6643517DE85AB0036A4F8 /* D1AppDelegate.m */,
-				04E6643717DE85AB0036A4F8 /* Main.storyboard */,
+				04C2D09717DEE2790086B9AD /* Main_iPad.storyboard */,
+				04E6643717DE85AB0036A4F8 /* Main_iPhone.storyboard */,
 				04E6643A17DE85AB0036A4F8 /* D1ViewController.h */,
 				04E6643B17DE85AB0036A4F8 /* D1ViewController.m */,
 				04E6643D17DE85AB0036A4F8 /* Images.xcassets */,
 				04E6642C17DE85AB0036A4F8 /* Supporting Files */,
+				04C2D09317DE8C5A0086B9AD /* Compute.h */,
+				04C2D09417DE8C5A0086B9AD /* Compute.m */,
 			);
 			path = calculator;
 			sourceTree = "<group>";
@@ -230,8 +246,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				04E6643E17DE85AB0036A4F8 /* Images.xcassets in Resources */,
+				04C2D09817DEE2790086B9AD /* Main_iPad.storyboard in Resources */,
 				04E6643017DE85AB0036A4F8 /* InfoPlist.strings in Resources */,
-				04E6643917DE85AB0036A4F8 /* Main.storyboard in Resources */,
+				04E6643917DE85AB0036A4F8 /* Main_iPhone.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04E6643217DE85AB0036A4F8 /* main.m in Sources */,
+				04C2D09517DE8C5A0086B9AD /* Compute.m in Sources */,
 				04E6643617DE85AB0036A4F8 /* D1AppDelegate.m in Sources */,
 				04E6643C17DE85AB0036A4F8 /* D1ViewController.m in Sources */,
 			);
@@ -283,12 +301,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		04E6643717DE85AB0036A4F8 /* Main.storyboard */ = {
+		04E6643717DE85AB0036A4F8 /* Main_iPhone.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				04E6643817DE85AB0036A4F8 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Main_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
 		04E6644D17DE85AB0036A4F8 /* InfoPlist.strings */ = {
@@ -378,7 +396,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "calculator/calculator-Prefix.pch";
 				INFOPLIST_FILE = "calculator/calculator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -391,7 +411,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "calculator/calculator-Prefix.pch";
 				INFOPLIST_FILE = "calculator/calculator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -455,6 +477,7 @@
 				04E6645617DE85AB0036A4F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04E6645717DE85AB0036A4F8 /* Build configuration list for PBXNativeTarget "calculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -463,6 +486,7 @@
 				04E6645917DE85AB0036A4F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
